@@ -178,6 +178,34 @@ main{
 }
 
 
+/* love related style */
+
+.features{
+    gap: 140px;
+    align-items: center;
+    
+}
+
+
+#feature-sec-title{
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding: 21px;
+}
+
+.card-section{
+    padding: 35px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.card-section .card-title{
+    font-size: 1.25rem;
+    font-weight: 600px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
 
 /* Fact related style */
 
