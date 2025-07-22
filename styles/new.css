@@ -180,9 +180,15 @@ main{
 
 /* love related style */
 
+.feature-img img{
+    width: 100%;
+}
+
 .features{
-    gap: 140px;
+    gap: 180px;
     align-items: center;
+    margin-top: 130px;
+    margin-bottom: 160px;
     
 }
 
@@ -205,6 +211,59 @@ main{
     margin-top: 0px;
     margin-bottom: 10px;
 }
+
+#experience-badge{
+    padding: 45px 42px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.badge-text{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.badge-description{
+    font-size: 1.56rem;
+    font-weight: 500px;
+}
+
+/* small device */
+@media screen and (max-width:576px) {
+    .features{
+        flex-direction: column;
+    }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .badge-text{
+        padding: px; 
+        font-size: 1.25rem;
+        font-weight:600 ;
+    }
+    
+}
+/* medium device */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .features{
+        flex-direction: column;
+    }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    
+}
+
+
+
+
+
 
 
 /* Fact related style */
@@ -321,4 +380,36 @@ main{
     
 }
 
+/* footer */
 
+.footer{
+    background-color: rgba(255, 244, 231, 1);
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+
+.footer-description{
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    padding: 39px 410px;
+}
+
+/* small device */
+@media screen and (max-width:576px) {
+    .footer-description{
+        padding: 20px 20px;
+    }
+    
+}
+
+/* medieum device*/
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .footer-description{
+        padding: 20px 20px;
+    }
+    
+}
